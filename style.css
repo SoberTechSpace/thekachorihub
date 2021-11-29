@@ -133,9 +133,9 @@ background-image: url(./Images/red-chili-peppers-garlic-parsley.jpg);
 
     }
     }
-       @media (max-width: 480px) {
-         .margin-footer {
-           margin-top: 130rem;
+ @media (max-width: 480px) {
+   .margin-footer {
+     margin-top: 130rem;
 
-         }
-       }
+   }
+ }
