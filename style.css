@@ -66,13 +66,14 @@ font-family: 'Sansita Swashed', cursive; font-weight: 1000; font-size: 20px;
   border: solid rgb(54, 53, 53) 1px;
 }
 
-
+/* 
 .nav-hover
 {
-font-weight: 500; font-size: 25px; 
-color: aliceblue;
 
-}
+ font-weight: 500;
+ font-size: 21px; 
+
+} */
 
 
 .nav-hover:hover
@@ -80,7 +81,7 @@ color: aliceblue;
 {
   transform: scale(1.2);
   transition-duration: 0.5s;
-  color: azure;
+  color: rgb(158, 9, 108);
 }
 
 .back-img
@@ -111,6 +112,23 @@ background-image: url(./Images/red-chili-peppers-garlic-parsley.jpg);
   padding: 20px;
 }
 
+
+.navbar-color
+{
+  font-weight: 500;
+  font-size: 21px;
+  /* color: rgb(100, 31, 100); */
+  color: blue;
+}
+
+
+@media (max-width: 480px) {
+  .bg-color {
+color: aliceblue; 
+  }
+}
+
+
 @media (max-width: 480px) {
   .bg-top {
   background-image: url(./Images/Banner-o1.jpg);
@@ -118,7 +136,6 @@ background-image: url(./Images/red-chili-peppers-garlic-parsley.jpg);
   background-attachment: fixed;
   background-size: 100% 103%;
   height: 51rem;
-
   }
 }
 
@@ -130,12 +147,46 @@ background-image: url(./Images/red-chili-peppers-garlic-parsley.jpg);
       background-attachment: fixed;
       background-size: 100% 103%;
       height: 42rem;
+      color: aliceblue;
 
     }
-    } 
- @media (max-width: 480px) {
-   .margin-footer {
-     margin-top: 130rem;
+    }
 
-   }
- }
+    @media (max-width: 480px) {
+      .margin-footer {
+margin-top: 130rem;
+
+      }
+    }
+   
+
+
+
+
+
+
+            .map-responsive {
+
+              overflow: hidden;
+
+              padding-bottom: 56.25%;
+
+              position: relative;
+
+              height: 0;
+
+            }
+
+            .map-responsive iframe {
+
+              left: 0;
+
+              top: 0;
+
+              height: 250px;
+
+              /* width: 100%; */
+
+      
+
+            }
